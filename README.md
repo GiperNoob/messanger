@@ -25,3 +25,18 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Commits correctly naming
+`feature` — используется при добавлении новой функциональности уровня приложения
+
+`fix` — если исправили какую-то серьезную багу
+
+`docs` — всё, что касается документации
+
+`style` — исправляем опечатки, исправляем форматирование
+
+`refactor` — рефакторинг кода приложения
+
+`test` — всё, что связано с тестированием
+
+`chore` — обычное обслуживание кода
