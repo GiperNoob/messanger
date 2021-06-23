@@ -9,10 +9,12 @@ import { environment } from '../environments/environment';
 import { EffectsModule } from '@ngrx/effects';
 import { StoreRouterConnectingModule } from '@ngrx/router-store';
 import { IAppState } from './Redux/Models/IAppState';
+import { TitlePageComponent } from './components/title-page/title-page.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TitlePageComponent
   ],
   imports: [
     BrowserModule,
